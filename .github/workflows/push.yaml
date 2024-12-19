@@ -1,8 +1,0 @@
-name: push actions 
-on: push 
-jobs:
-  test:
-    runs-on: macos-latest
-    steps:
-      - name: get_code
-        uses: actions/checkout@v4.2.2 
